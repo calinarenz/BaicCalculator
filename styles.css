@@ -1,0 +1,19 @@
+bodt{
+    background: #000; 
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    alight-items : center;
+    overflow: hidden;
+}
+
+#Particles::after{
+    content: "";
+    position: absolute;
+    top: -2000px;
+    width: 2px;
+    height: 2px;
+    background: transparent;
+    border-radius: 100%;
+}
